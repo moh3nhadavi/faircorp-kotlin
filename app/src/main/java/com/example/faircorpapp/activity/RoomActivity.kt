@@ -14,14 +14,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.faircorpapp.R
 import com.example.faircorpapp.adapter.RoomAdapter
 import com.example.faircorpapp.service.ApiServices
-import com.example.faircorpapp.service.RoomService
+//import com.example.faircorpapp.service.RoomService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class RoomActivity : AppCompatActivity() {
 
-    private val roomService = RoomService()
+//    private val roomService = RoomService()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
